@@ -27,3 +27,6 @@ mysql.mysql-connector-java                     5.1.26
 Web lib dependencies    Version     Usage
 jQuery                  1.10.2      <script type="text/javascript" src="xlibs/js/jquery-v1x.js"></script>
 jQuery                  2.0.3       <script type="text/javascript" src="xlibs/js/jquery-v2x.js"></script>
+Bootstrap               3.0.0       <script type="text/javascript" src="xlibs/js/bootstrap.js"></script>
+                                    <link href="xlibs/css/bootstrap.css" rel="stylesheet" media="screen">
+                                    <link href="xlibs/css/bootstrap-theme.css" rel="stylesheet" media="screen">
