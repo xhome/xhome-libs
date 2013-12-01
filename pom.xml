@@ -16,7 +16,9 @@
         <xhome-db.version>1.0</xhome-db.version>
         <xhome-common.version>1.0</xhome-common.version>
         <spring-mvc-extend.version>1.0</spring-mvc-extend.version>
+        <freemarker.version>2.3.20</freemarker.version>
         <gson.version>2.2.4</gson.version>
+        <jackson-databind.version>2.2.2</jackson-databind.version>
         <jackson-mapper-asl.version>1.9.13</jackson-mapper-asl.version>
         <validation-api.version>1.1.0.Final</validation-api.version>
         <hibernate-validator.version>5.0.1.Final</hibernate-validator.version>
@@ -75,9 +77,19 @@
         </dependency>
         
         <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${freemarker.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-databind.version}</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
@@ -125,6 +137,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
         <!-- End Spring -->

@@ -24,9 +24,15 @@ org.slf4j.jcl-over-slf4j                       1.7.5
 ch.qos.logback.logback-classic                 1.0.13
 mysql.mysql-connector-java                     5.1.26
 
-Web lib dependencies    Version     Usage
-jQuery                  1.10.2      <script type="text/javascript" src="xlibs/js/jquery-v1x.js"></script>
-jQuery                  2.0.3       <script type="text/javascript" src="xlibs/js/jquery-v2x.js"></script>
-Bootstrap               3.0.0       <script type="text/javascript" src="xlibs/js/bootstrap.js"></script>
-                                    <link href="xlibs/css/bootstrap.css" rel="stylesheet" media="screen">
-                                    <link href="xlibs/css/bootstrap-theme.css" rel="stylesheet" media="screen">
+Web lib dependencies    Version     Description             Usage
+jQuery                  1.10.2      jquery 1.x              <script type="text/javascript" src="xlibs/js/jquery-v1x.js"></script>
+jQuery                  2.0.3       jquery 2.x              <script type="text/javascript" src="xlibs/js/jquery-v2x.js"></script>
+jQuery Validation       1.11.1      依赖jQuery              <script type="text/javascript" src="xlibs/js/jquery-validate.js"></script>
+Bootstrap               3.0.0       依赖jQuery              <script type="text/javascript" src="xlibs/js/bootstrap.js"></script>
+                                                            <link href="xlibs/css/bootstrap.css" rel="stylesheet" media="screen"/>
+                                                            <link href="xlibs/css/bootstrap-theme.css" rel="stylesheet" media="screen"/>
+
+
+扩展组建
+对jQuery Validation的扩展，添加正则表达式校验，引用前必须先引用jquery-validate.js
+jQuery XValidation      1.0         依赖jQuery Validation   <script type="text/javascript" src="xlibs/js/jquery-xvalidate.js"></script>
