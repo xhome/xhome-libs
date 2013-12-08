@@ -31,6 +31,8 @@ jQuery Validation       1.11.1      依赖jQuery              <script type="text
 Bootstrap               3.0.0       依赖jQuery              <script type="text/javascript" src="xlibs/js/bootstrap.js"></script>
                                                             <link href="xlibs/css/bootstrap.css" rel="stylesheet" media="screen"/>
                                                             <link href="xlibs/css/bootstrap-theme.css" rel="stylesheet" media="screen"/>
+Ext JS                  4.2         Ext JS                  <script type="text/javascript" src="xlibs/ext/ext-all.js"></script>
+                                                            <link href="xlibs/ext/resources/css/ext-all.css" rel="stylesheet" type="text/css"/>
 
 
 扩展组建
