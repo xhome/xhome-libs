@@ -206,7 +206,8 @@
                     </includes>
                     <!-- 忽略引入的第三方库，因为已经是压缩了的 -->
                     <excludes>
-                        <exclude>**/ext/**</exclude>
+                        <exclude>**/ext/*.js</exclude>
+                        <exclude>**/ext/resources/**</exclude>
                         <exclude>**/jquery-v1x.js</exclude>
                         <exclude>**/jquery-v2x.js</exclude>
                         <exclude>**/jquery-validate.js</exclude>
