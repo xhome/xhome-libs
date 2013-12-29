@@ -17,12 +17,10 @@
         <xhome-common.version>1.0</xhome-common.version>
         <spring-mvc-extend.version>1.0</spring-mvc-extend.version>
         <freemarker.version>2.3.20</freemarker.version>
-        <gson.version>2.2.4</gson.version>
-        <jackson-databind.version>2.2.2</jackson-databind.version>
-        <jackson-mapper-asl.version>1.9.13</jackson-mapper-asl.version>
+        <jackson-databind.version>2.3.1</jackson-databind.version>
         <validation-api.version>1.1.0.Final</validation-api.version>
         <hibernate-validator.version>5.0.1.Final</hibernate-validator.version>
-        <spring.version>3.2.4.RELEASE</spring.version>
+        <spring.version>3.2.5.RELEASE</spring.version>
         <mybatis.version>3.2.3</mybatis.version>
         <mybatis-spring.version>1.2.1</mybatis-spring.version>
         <logback.version>1.0.13</logback.version>
@@ -83,19 +81,9 @@
             <version>${freemarker.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${gson.version}</version>
-        </dependency>
-        <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson-databind.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.jackson</groupId>
-            <artifactId>jackson-mapper-asl</artifactId>
-            <version>${jackson-mapper-asl.version}</version>
         </dependency>
 
         <!-- Start Validation -->
