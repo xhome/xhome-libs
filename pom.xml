@@ -70,7 +70,7 @@
             <version>${xhome-common.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jhat</groupId>
+            <groupId>org.xhome</groupId>
             <artifactId>spring-mvc-extend</artifactId>
             <version>${spring-mvc-extend.version}</version>
         </dependency>
