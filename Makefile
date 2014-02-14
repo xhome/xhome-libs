@@ -4,5 +4,5 @@ package: clean
 	./package.sh
 clean:
 	mvn clean
-deploy:
+deploy: package
 	mvn deploy -Dmaven.test.skip=true

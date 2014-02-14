@@ -10,7 +10,6 @@ org.xhome.xhome-util                           1.0
 org.xhome.xhome-db                             1.0
 org.xhome.xhome-common                         1.0
 org.jhat.spring-mvc-extend                     1.0
-com.google.code.gson                           2.2.4
 org.codehaus.jackson.jackson-mapper-asl        1.9.13
 javax.validation.validation-api                1.1.0.Final
 org.hibernate.hibernate-validator              5.0.1.Final
@@ -25,8 +24,8 @@ ch.qos.logback.logback-classic                 1.0.13
 mysql.mysql-connector-java                     5.1.26
 
 Web lib dependencies    Version     Description             Usage
-jQuery                  1.10.2      jquery 1.x              <script type="text/javascript" src="xlibs/js/jquery-v1x.js"></script>
-jQuery                  2.0.3       jquery 2.x              <script type="text/javascript" src="xlibs/js/jquery-v2x.js"></script>
+jQuery                  1.11.0      jquery 1.x              <script type="text/javascript" src="xlibs/js/jquery-v1x.js"></script>
+jQuery                  2.1.0       jquery 2.x              <script type="text/javascript" src="xlibs/js/jquery-v2x.js"></script>
 jQuery Validation       1.11.1      依赖jQuery              <script type="text/javascript" src="xlibs/js/jquery-validate.js"></script>
 Bootstrap               3.0.0       依赖jQuery              <script type="text/javascript" src="xlibs/js/bootstrap.js"></script>
 Bootstrap CSS           3.0.0                               <link href="xlibs/css/bootstrap.css" rel="stylesheet" media="screen"/>
