@@ -39,6 +39,8 @@ Ext CSS                 4.2         默认主题                <link href="xlib
 Ext Theme               4.2         Gray主题                <link href="xlibs/ext/resources/css/ext-all-gray.css" rel="stylesheet" type="text/css"/>
 Ext Theme               4.2         Access主题              <link href="xlibs/ext/resources/css/ext-all-access.css" rel="stylesheet" type="text/css"/>
 Ext Theme               4.2         Neptune主题             <link href="xlibs/ext/resources/css/ext-all-neptune.css" rel="stylesheet" type="text/css"/>
+UEditor                 1.3.6       百度富文本编辑器        <script type="text/javascript" src="xlibs/ueditor/ueditor.js"></script>
+                                                            <script type="text/javascript" src="xlibs/ueditor/config.js"></script>
 
 扩展组建
 对jQuery Validation的扩展，添加正则表达式校验，引用前必须先引用jquery-validate.js
